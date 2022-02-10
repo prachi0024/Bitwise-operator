@@ -1,0 +1,22 @@
+
+public class BitwiseExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 60;
+		int b = 30;
+		int result;
+		result =a&b;
+		System.out.println("Bitwise And : " + result);
+		result =a|b;
+		System.out.println("Bitwise or : " + result);
+		result =a^b;
+		System.out.println("Bitwise xor : " + result);
+		result =a<<2;
+		System.out.println("Bitwise left shift : " + result);
+		result =a>>3;
+		System.out.println("Bitwise right shift : " + result);
+
+	}
+
+}
